@@ -45,34 +45,6 @@ function connectButtonClick(){
           };        
     });
 
-    /*
-    navigator.getUserMedia({video: true, audio: true}, function(stream) {
-        // Not solved this problem
-        // stream = null 
-        const audioCtx = new (window.AudioContext || window.webkitAudioContext)()
-        const dest = audioCtx.createMediaStreamDestination ();
-        call.answer()
-
-        var call = peer.call(anotherid, stream);
-        call.on('stream', function(remoteStream) {
-            video.srcObject = remoteStream;        
-        });
-        },function(e) {
-            console.log(e);
-        });
-
-    navigator.getUserMedia({video: true, audio: true}, function(stream) {
-        var call = peer.call(anotherid, stream);
-        call.on('stream', function(remoteStream) {
-            video.srcObject = remoteStream;        
-        });
-    },function(e) {
-        console.log(e);
-    });
-
-
-
-    */
 }
     
 
