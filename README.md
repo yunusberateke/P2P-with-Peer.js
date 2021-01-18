@@ -1,9 +1,8 @@
-## Webrtc + P2P  ##
+## P2P with Peer.js  ##
 
-**Answer**
+**Description**
+This project is an easy video chat app.
 
-broadcasts and generates id
+**Use**
+Answer page gives you a key after opening. Copy this key and paste it into the blaoa page. I hope help u.
 
-**Call**
-
-connect to broadcast
